@@ -11,7 +11,7 @@ public class Moditems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, JumboArtifacts.MODID);
 
-    public static final RegistryObject<Item> WADINGBOOTS = ITEMS.register("wading_boots",
+    public static final RegistryObject<Item> WADING_BOOTS = ITEMS.register("wading_boots",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
